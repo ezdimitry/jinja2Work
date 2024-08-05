@@ -14,3 +14,4 @@ tm = env.get_template('page.html')
 msg = tm.render(title="Про jinja2")
 
 print(msg)
+
